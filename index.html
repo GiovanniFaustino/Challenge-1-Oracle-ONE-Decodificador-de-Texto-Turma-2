@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Inter&family=Macondo&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <title>Decodificador</title>
+    </head>
+
+    <body class="body">
+        <header>
+            <img src="imagens/logoalura.png" class="alura" alt="Logo da alura com a letra inicial a">
+        </header>
+
+        <main class="main">
+            <section>
+                <textarea class="input-texto" cols="40" rows="6" placeholder="Digite seu texto"></textarea>                    
+                    <button class="encriptar" onclick="btnCriptografar()">
+                         Criptografar
+                    </button>                
+                    <button class="desencriptar" onclick="btnDesencriptar()">
+                        Descriptografar
+                    </button>
+
+                <textarea class="mensagem" cols="18" rows="8"></textarea>
+                    <button  class="copiar" onclick="btnCopiar()">       
+                        Copiar
+                    </button>  
+
+                        <h6 class="informacao"><img src="imagens/esclamacao.png" alt="Sinal de esclamação para chamar atenção"> Apenas letras maiúsculas e minúsculas</h6>
+            </section>   
+
+        </main> 
+            <script src="script.js"></script>      
+
+        <footer>
+            <p class="nome">&copy; Produzido por - Giovanni Faustino de Paula</p>
+            <p><A href="https://github.com/jovasfaustino1977"><img src="imagens/githubLink.png" class="github"></A><A href="https://www.linkedin.com/in/giovanni-de-paula-1a9b931ab/"><img src="imagens/linkedin.png" class="linkedin"></A></p>            
+        </footer>
+    </body>
+</html>
