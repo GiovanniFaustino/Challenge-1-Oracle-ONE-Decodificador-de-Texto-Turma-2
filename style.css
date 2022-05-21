@@ -1,6 +1,7 @@
 
 .body {
     background-image: url(imagens/background.png);
+    background-repeat: no-repeat;
     background-color: #e5e8ee;
 
 }
@@ -27,7 +28,7 @@
 .mensagem {
     display: block;
     position: absolute;
-    font-family: 'Macondo', cursive;
+    font-family: "Inter", sans-serif;
     width: 20%;
     height: 50%;
     left: 47%;
